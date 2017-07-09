@@ -12,6 +12,7 @@ module Stack.Dot (dot
                  ,resolveDependencies
                  ,printGraph
                  ,pruneGraph
+                 ,createPrunedDependencyGraph
                  ) where
 
 import           Control.Applicative
